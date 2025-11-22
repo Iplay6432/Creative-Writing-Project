@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iMessage-style Chat</title>
+    <link rel="stylesheet" href="/static/css/chat.css">
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <header class="sidebar-header">
+          <div>Messages</div>
+          <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+        </header>
+        <ul class="chat-list"></ul>
+      </aside>
+      <div id="resizer" class="resizer" role="separator" aria-orientation="vertical" aria-label="Resize sidebar"></div>
+
+      <main class="chat-area">
+        <div class="chat-top">
+          <div class="chat-title">Alex</div>
+          <div class="chat-controls">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+          </div>
+        </div>
+
+        <div id="date-sticky" class="date-sticky" aria-hidden="true"></div>
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="composer" class="composer">
+          <input id="input" class="composer-input" type="text" placeholder="iMessage" autocomplete="off" />
+          <button id="send" class="composer-send" type="submit">Send</button>
+        </form>
+      </main>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+  </body>
+</html>
