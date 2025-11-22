@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Alex", "avatar": "images/avatars/alex.svg", "lastMessage": "Bring snacks 😄", "lastTime": "2025-11-22T18:32:00Z" },
+  { "id": 2, "name": "Taylor", "avatar": "images/avatars/taylor.svg", "lastMessage": "I'll send notes soon.", "lastTime": "2025-11-21T12:02:00Z" },
+  { "id": 3, "name": "Sam", "avatar": "images/avatars/sam.svg", "lastMessage": "Don't forget the meeting tomorrow.", "lastTime": "2025-11-20T09:05:00Z" }
+]
+
